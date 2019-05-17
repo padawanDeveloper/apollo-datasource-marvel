@@ -1,7 +1,9 @@
-import { Meteor } from "meteor/meteor";
+import { Meteor } from 'meteor/meteor'
+
+import './api'
 
 Meteor.startup(() => {
-  console.log("server started");
+  console.log('server started')
   // Accounts.createUser({
   //   email: "root@nomadscore.com",
   //   password: "123456",
@@ -10,4 +12,4 @@ Meteor.startup(() => {
   //     admin: true
   //   }
   // });
-});
+})

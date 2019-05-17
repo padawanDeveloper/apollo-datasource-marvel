@@ -2,7 +2,6 @@ type Serie {
   title: String
 }
 
-
 extend type Query {
   series: [Serie]
 }

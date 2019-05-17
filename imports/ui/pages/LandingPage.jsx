@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react'
 
-import Button from "@material-ui/core/Button";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import { withStyles } from "@material-ui/core/styles";
+import Button from '@material-ui/core/Button'
+import Grid from '@material-ui/core/Grid'
+import Typography from '@material-ui/core/Typography'
+import { withStyles } from '@material-ui/core/styles'
 
-import SerieGrid from "../layouts/components/grids/SeriesGridLayout";
+import SerieGrid from '../layouts/components/grids/SeriesGridLayout'
 
 const styles = theme => ({
   developedBy: {
-    color: theme.palette.primary.dark
+    color: theme.palette.primary.dark,
   },
   rootContainer: {
-    background: theme.palette.primary.main
-  }
-});
+    background: theme.palette.primary.main,
+  },
+})
 
 export default withStyles(styles)(({ classes }) => (
   <Grid
@@ -26,12 +26,7 @@ export default withStyles(styles)(({ classes }) => (
   >
     <SerieGrid />
     <Grid item xs={12}>
-      <Typography
-        variant="h1"
-        color="secondary"
-        align="center"
-        style={{ color: "red" }}
-      >
+      <Typography variant="h1" color="secondary" align="center" style={{ color: 'red' }}>
         #MARVEL
       </Typography>
       <Typography variant="h4" color="secondary" align="center">
@@ -42,9 +37,9 @@ export default withStyles(styles)(({ classes }) => (
       href="https://www.padawandev.me"
       variant="contained"
       color="secondary"
-      style={{ color: "red" }}
+      style={{ color: 'red' }}
     >
       Developed by PADAWANDEV
     </Button>
   </Grid>
-));
+))

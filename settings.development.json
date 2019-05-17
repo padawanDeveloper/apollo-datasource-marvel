@@ -3,7 +3,8 @@
     "appName": "MARVEL",
     "marvel": {
       "api": {
-        "BASE_URL": "gateway.marvel.com:443/v1/public/series?ts=1&apikey=7dbb36c7a0945655e69fbb518fa42e79&hash=9DD1B58D883F2C4E325FE3BAEF7BD050"}
+        "BASE_URL": "gateway.marvel.com:443/v1/public/series?ts=1&apikey=7dbb36c7a0945655e69fbb518fa42e79&hash=9DD1B58D883F2C4E325FE3BAEF7BD050"
+      }
     }
   }
 }
